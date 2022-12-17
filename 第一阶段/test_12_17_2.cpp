@@ -9,9 +9,9 @@ using namespace std;
 int main() {
     int a = 10;
     int b = 20;
-//    Max = 10;
     const int day = 7;
 //    day = 8;
+//    Max = 10;
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
     cout << "a + b = " << a + b << endl;
