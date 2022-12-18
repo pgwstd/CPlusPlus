@@ -2,9 +2,10 @@
 // Created by 潘光伟 on 2022/12/18.
 //
 #include"iostream"
+
 using namespace std;
-int main()
-{
+
+int main() {
     int a = 10;
     short num1 = -32768;
     int num2 = 10;
@@ -14,6 +15,9 @@ int main()
     double d = 5.1234567;
     int i = 3e2;  //3 * 10 ^ 2
     float j = 3e-2f; //3 * 0.1 ^ 2
+    char ch = 'a';
+    cout << ch << endl;
+    cout << sizeof('a') << endl;
     cout << j << endl;
     cout << i << endl;
     cout << f << endl;
@@ -30,4 +34,5 @@ int main()
     cout << "double占用的内存大小" << sizeof(double) << endl;
     cout << "long占用的内存大小" << sizeof(long) << endl;
     cout << "long long占用的内存大小" << sizeof(long long) << endl;
+    cout << "char占用的内存大小" << sizeof(char) << endl;
 }
