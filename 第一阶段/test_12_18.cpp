@@ -10,6 +10,10 @@ int main()
     int num2 = 10;
     long num3 = 10;
     long long num4 = 10;
+    float f = 3.14f;
+    double d = 5.12;
+    cout << f << endl;
+    cout << d << endl;
     cout << a << endl;
     cout << num1 << endl;
     cout << num2 << endl;
