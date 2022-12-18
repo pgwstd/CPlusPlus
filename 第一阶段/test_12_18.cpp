@@ -10,8 +10,8 @@ int main()
     int num2 = 10;
     long num3 = 10;
     long long num4 = 10;
-    float f = 3.14f;
-    double d = 5.12;
+    float f = 3.1415926f;
+    double d = 5.1234567;
     cout << f << endl;
     cout << d << endl;
     cout << a << endl;
@@ -23,6 +23,7 @@ int main()
     cout << "short占用的内存大小" << sizeof(short) << endl;
     cout << "int占用的内存大小" << sizeof(int) << endl;
     cout << "float占用的内存大小" << sizeof(float) << endl;
+    cout << "double占用的内存大小" << sizeof(double) << endl;
     cout << "long占用的内存大小" << sizeof(long) << endl;
     cout << "long long占用的内存大小" << sizeof(long long) << endl;
 }
