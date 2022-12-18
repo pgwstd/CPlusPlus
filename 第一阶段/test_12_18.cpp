@@ -17,6 +17,7 @@ int main() {
     float j = 3e-2f; //3 * 0.1 ^ 2
     char ch = 'a';
     cout << ch << endl;
+    cout << (int)ch << endl;
     cout << sizeof('a') << endl;
     cout << j << endl;
     cout << i << endl;
