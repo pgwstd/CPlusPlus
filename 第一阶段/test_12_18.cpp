@@ -15,4 +15,10 @@ int main()
     cout << num2 << endl;
     cout << num3 << endl;
     cout << num4 << endl;
+
+    cout << "short占用的内存大小" << sizeof(short) << endl;
+    cout << "int占用的内存大小" << sizeof(int) << endl;
+    cout << "float占用的内存大小" << sizeof(float) << endl;
+    cout << "long占用的内存大小" << sizeof(long) << endl;
+    cout << "long long占用的内存大小" << sizeof(long long) << endl;
 }
