@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int a = 10;
-    short num1 = 10;
+    short num1 = -32768;
     int num2 = 10;
     long num3 = 10;
     long long num4 = 10;
