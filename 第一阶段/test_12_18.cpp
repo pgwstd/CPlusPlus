@@ -12,6 +12,10 @@ int main()
     long long num4 = 10;
     float f = 3.1415926f;
     double d = 5.1234567;
+    int i = 3e2;  //3 * 10 ^ 2
+    float j = 3e-2f; //3 * 0.1 ^ 2
+    cout << j << endl;
+    cout << i << endl;
     cout << f << endl;
     cout << d << endl;
     cout << a << endl;
