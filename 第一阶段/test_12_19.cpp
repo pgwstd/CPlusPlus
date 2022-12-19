@@ -6,6 +6,9 @@ using namespace std;
 int main()
 {
     cout << "hello world\t" << endl;
+    cout << "aaa\thello world" << endl;
+    cout << "a\thello world" << endl;
+    cout << "aa\thello world" << endl;
     cout << "\\a" << endl;
     return 0;
 }
