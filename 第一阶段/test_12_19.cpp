@@ -7,7 +7,11 @@ using namespace std;
 int main()
 {
     char str[] = "hello";//c语言风格
-    string str2 = "hello";//c++语言风格(要包括头文件)
+    string str2 = "hello";//c++语言风格(要包含头文件)
+    bool flag = true;
+    bool flag2 = false;
+    cout << flag <<endl;
+    cout << flag2 << endl;
     cout << str2 <<endl;
     cout << str << endl;
     cout << "hello world\t" << endl;
