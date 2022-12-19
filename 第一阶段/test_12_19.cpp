@@ -8,6 +8,9 @@ int main()
 {
     char str[] = "hello";//c语言风格
     string str2 = "hello";//c++语言风格(要包含头文件)
+    int input = 0;
+    cin >> input;
+    cout << input <<endl;
     bool flag = true;
     bool flag2 = false;
     cout << flag <<endl;
