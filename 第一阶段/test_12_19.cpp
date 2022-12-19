@@ -8,11 +8,11 @@ using namespace std;
 
 int main() {
 
-    bool b = false;
-    cin >> b;
-    cout << b << endl;
-    float f1 = 3.14;
-    float f2 = 1.2;
+//    bool b = false;
+//    cin >> b;
+//    cout << b << endl;
+//    float f1 = 3.14;
+//    float f2 = 1.2;
 //    char str[] = "hello";//c语言风格
 //    string str2 = "hello";//c++语言风格(要包含头文件)
 //    cin >> str2;
