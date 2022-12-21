@@ -9,6 +9,9 @@ int main(){
     int a = 0;
     int b = 0;
     int c = 0;
+    int d = 10;
+    int e = 20;
+    cout << (d > e ? d:e) << endl;
     cout << "请输入a的值:" << endl;
     cin >> a;
     cout << "请输入b的值:" << endl;
