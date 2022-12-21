@@ -15,23 +15,13 @@ int main(){
     cin >> b;
     cout << "请输入c的值:" << endl;
     cin >> c;
-    if (a > b){
-        if (a > c){
+    if (a > b && a > c){
             cout << "a是最大的" << endl;
-        }
-        else{
-            cout << "c是最大的" << endl;
-        }
     }
-    else if (a < c){
-        if (b < c){
-            cout << "c是最大的" << endl;
-        }
-       else{
-            cout << "b是最大的" << endl;
-       }
+    else if (a < c && b < c){
+        cout << "c是最大的" << endl;
     }
-    else if (b > c){
+    else if (b > a && b > c){
         cout << "b是最大的" << endl;
     }
     return 0;
