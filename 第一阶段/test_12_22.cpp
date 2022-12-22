@@ -5,9 +5,11 @@
 using namespace std;
 int main()
 {
+    srand((unsigned int)time(NULL));
     int num = rand() % 100 + 1;
     int input = 0;
-    while (true) {
+    int i = 0;
+    while (i < 5) {
         cin >> input;
         if (input > num) {
             cout << "大了" << endl;
@@ -17,6 +19,7 @@ int main()
             cout << "猜对了" << endl;
             break;
         }
+        i++;
     }
     return 0;
 }
