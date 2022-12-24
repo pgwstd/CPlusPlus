@@ -4,4 +4,4 @@ project(CPlusPlus)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CPlusPlus
-              第一阶段/test_12_23.cpp)
+               第一阶段/test_12_24.cpp)
