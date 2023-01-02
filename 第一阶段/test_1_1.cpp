@@ -15,7 +15,7 @@ int main() {
          }
      }
      cout << max << endl;*/
-    int tmp = 0;
+   /* int tmp = 0;
     for (int i = 0; i < a; i++) {
         //冒泡排序
         for (int j = 0; j < a - i - 1; j++) {
@@ -29,6 +29,16 @@ int main() {
     }
     for (int j = 0; j < a; ++j) {
         cout << array[j] << endl;
+    }*/
+   int tmp = 0;
+    for (int i = 0; i < a; ++i) {
+        for (int j = 0; j < a - i - 1; ++j) {
+            if (array[i] > array[i + 1]){
+                tmp = array[i];
+                array[i] = array[i + 1];
+                array[i + 1] = tmp;
+            }
+        }
     }
     return 0;
 }
