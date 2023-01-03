@@ -3,18 +3,21 @@
 //
 
 #include "iostream"
+
 using namespace std;
+
 //交换两个数
-void swap(int a,int b){
-    int tmp = 0;
-    tmp = a;
-    a = b;
-    b = tmp;
+void swap(int *a, int *b) {
+    int tmp;
+    tmp = *a;
+    *a = *b;
+    *b = tmp;
 }
-int main(){
-    int a = 10;
+
+int main() {
+    int a = 30;
     int b = 20;
-    swap(a,b);
+    swap(&a, &b);
     cout << a << endl;
     cout << b << endl;
     return 0;
